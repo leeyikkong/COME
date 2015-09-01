@@ -164,7 +164,7 @@ define(function (require, exports, module) {
      * A flag to remember when user has been warned about too many files, so they
      * are only warned once per project/session.
      */
-    var _projectWarnedForTooManyFiles = false;
+    var _projectWarnedForTooManyFiles = false
 
     /**
      * @private
