@@ -116,7 +116,7 @@ define(function (require, exports, module) {
             event.preventDefault();
         }
 
-        if ($(event.target).closest($dlg).length) {
+        if ($(event.target).closest($dlg).length) 
             // If it's the first or last tabbable element, focus the last/first element
             if ((!event.shiftKey && event.target === $inputs[$inputs.length - 1]) ||
                     (event.shiftKey && event.target === $inputs[0])) {
