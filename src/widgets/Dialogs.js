@@ -133,7 +133,7 @@ define(function (require, exports, module) {
             $inputs.first().focus();
             stopEvent();
         }
-    }
+    
 
 
     /**
