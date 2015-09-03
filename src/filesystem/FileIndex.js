@@ -51,7 +51,7 @@ define(function (require, exports, module) {
      * Clear the file index cache.
      */
     FileIndex.prototype.clear = function () {
-        this._index = {};
+        this._index = {}
     };
     
     /**
