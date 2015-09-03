@@ -215,7 +215,7 @@ define(function (require, exports, module) {
      * @param {jQueryObject} $elem The element to add the shortcut to.
      * @param {string} commandId The ID for the command whose keyboard shortcut to show.
      */
-    FindBar.prototype._addShortcutToTooltip = function ($elem, commandId) 
+    FindBar.prototype._addShortcutToTooltip = function ($elem, commandId) {
         var replaceShortcut = KeyBindingManager.getKeyBindings(commandId)[0];
         if (replaceShortcut) {
             var oldTitle = $elem.attr("title");
